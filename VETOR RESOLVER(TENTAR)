@@ -1,0 +1,34 @@
+programa
+{
+	inclua biblioteca Util
+	inclua biblioteca Matematica
+	
+	funcao inicio()
+	{
+	cadeia heroi, herois[5]= {"Goku","Thor","Hulk","Reman","Saitama"}
+		
+	
+		leia(herois[5])
+		
+	para(inteiro i=0; i<=5; i++){
+
+		escreva(i+1,"º Lugar:",herois[i],"\n")	
+
+	se(herois[1] == "Goku"){ escreva(i+1,"º Lugar:",herois[i],"\n") pare }
+
+	se(herois[2] == "Thor"){ escreva(i+1,"º Lugar:",herois[i],"\n") pare }
+	
+	se(herois[3] == "Hulk"){ escreva(i+1,"º Lugar:",herois[i],"\n") pare }
+	
+	se(herois[4] == "Reman"){ escreva(i+1,"º Lugar:",herois[i],"\n") pare }
+		
+	se(herois[5] == "Saitama"){ escreva(i+1,"º Lugar:",herois[i],"\n") pare }
+		
+		}
+
+		
+
+		}
+	
+	
+}
