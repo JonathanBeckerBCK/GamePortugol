@@ -1,0 +1,240 @@
+programa
+{
+	inclua biblioteca Matematica
+	inclua biblioteca Util
+	
+	funcao inicio()
+	{
+		//1 
+		history()
+
+		//2 
+		destino()
+
+		//3 
+		entrando()
+     
+	}
+	funcao history()
+	{
+
+		//H I S T O R I A :
+   
+		Util.aguarde(200)
+		escreva("Por ")
+
+		Util.aguarde(200)
+		escreva("anos ")
+
+		Util.aguarde(200)
+		escreva("havia ")
+  
+		Util.aguarde(200)
+		escreva("uma ")
+
+		Util.aguarde(200)
+		escreva("mansão ")
+	
+		Util.aguarde(200)
+		escreva("à ")
+
+		Util.aguarde(200)
+		escreva("muito ")
+  
+		Util.aguarde(200)
+		escreva("tempo ")
+
+		Util.aguarde(200)
+		escreva("abandonada")
+
+		Util.aguarde(900)
+		escreva(".")
+
+		Util.aguarde(900)
+		escreva(".")
+
+		Util.aguarde(900)
+		escreva(".")
+
+		Util.aguarde(200)
+		escreva("ninguém")
+     
+		Util.aguarde(200)
+		escreva(" ousava ")
+     
+		Util.aguarde(200)
+		escreva("entrar ")
+
+		Util.aguarde(200)
+		escreva("lá ")
+          
+		Util.aguarde(200)
+		escreva("dentro")
+	          
+		Util.aguarde(900)
+		escreva(".")
+
+		Util.aguarde(900)
+		escreva(".")
+  
+		Util.aguarde(900)
+		escreva(".")
+
+		Util.aguarde(900)
+		escreva(".")
+     
+	     Util.aguarde(1000)
+	     limpa()
+     
+		Util.aguarde(200)
+		escreva("Não")
+
+		Util.aguarde(200)
+		escreva(" até")
+		      
+		Util.aguarde(200)
+		escreva(" aquele ")
+
+		Util.aguarde(200)
+		escreva("dia ")
+
+		Util.aguarde(1800)
+		limpa()
+     
+		Util.aguarde(200)
+		escreva("Era ")
+  
+		Util.aguarde(200)
+		escreva("uma ")
+
+		Util.aguarde(200)
+		escreva("mansão")
+		 
+		Util.aguarde(200)
+		escreva(", cheios de lenda")
+	
+		Util.aguarde(200)
+		escreva(", misterio")
+		 	
+		Util.aguarde(200)
+		escreva(", ou ")
+  
+		Util.aguarde(200)
+		escreva("algo ")
+
+		Util.aguarde(200)
+		escreva("do ")
+
+		Util.aguarde(200)
+		escreva("tipo ")
+
+		Util.aguarde(900)
+		escreva(".")
+
+		Util.aguarde(900)
+		escreva(".")
+
+		Util.aguarde(900)
+		escreva(".")
+
+		Util.aguarde(900)
+		escreva("mas...")
+	
+		Util.aguarde(1800)
+		limpa()
+
+	}
+	funcao destino()
+	{
+		
+		escreva("**Você ")
+		Util.aguarde(200)
+		escreva("decide ")
+		Util.aguarde(200)
+		escreva("ir ")
+		Util.aguarde(200)
+		escreva("até ")
+		Util.aguarde(200)
+		escreva("essa ")
+		Util.aguarde(200)
+		escreva("mansão**")
+		Util.aguarde(1800)
+		limpa()
+		escreva("Você ")
+		escreva("quer ")
+		escreva("entrar na ")
+		escreva("mansão??")
+     	escreva("\n\nSim[1]  Não[2]\n\nSua escolha:")
+     inteiro D
+		D = 2
+		leia(D)
+	escolha(D)
+     {
+	caso 1:
+		escreva("(Você ")
+		Util.aguarde(200)
+		escreva("entra ")
+		Util.aguarde(200)
+		escreva("na mansão) \n")
+      
+     pare
+     
+     caso 2: 
+    
+     	escreva("Não ")
+     	Util.aguarde(200)
+     	escreva("quero ")
+     	Util.aguarde(200)
+     	escreva("entrar ")
+     	Util.aguarde(200)
+     	escreva("nessa ")
+     	Util.aguarde(200)
+     	escreva("mansão.(")
+     	Util.aguarde(200)
+     	escreva("mas ")
+     	Util.aguarde(200)
+     	escreva("você ")
+     	Util.aguarde(200)
+     	escreva("é  ")
+     	Util.aguarde(200)
+     	escreva("tão ")
+     	Util.aguarde(200)
+     	escreva("curioso ")
+     	Util.aguarde(200)
+     	escreva("que ")
+     	Util.aguarde(200)
+    		escreva("não ")
+     	Util.aguarde(200)
+     	escreva("resiste ")
+     	Util.aguarde(200)
+     	escreva("ao ")
+     	Util.aguarde(200)
+     	escreva("entrar ")
+     	Util.aguarde(200)
+     	escreva("na ")
+     	Util.aguarde(200)
+     	escreva("mansão\n) ")
+     	Util.aguarde(200)
+     
+     pare
+     }
+     
+	}
+	funcao entrando()
+     {
+
+     	escreva("(Você ")
+     	Util.aguarde(200)
+     	escreva("entra ")
+     	Util.aguarde(200)
+     	escreva("na ")
+     	Util.aguarde(200)
+     	escreva("mansão ")
+     	Util.aguarde(200)
+     	escreva("abandonada)")
+     	Util.aguarde(200)
+     	
+     	
+     
+     }	
+}
