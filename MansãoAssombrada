@@ -5,12 +5,9 @@ programa
 	
 	funcao inicio()
 	{
-		
-		//1 
-		history()
+		//1 history()
           
-		//2 
-		destino()
+		//2 destino()
 
 		//3 
 		entrando()
@@ -59,8 +56,15 @@ programa
 
 		Util.aguarde(900)
 		escreva(".")
-  
-		Util.aguarde(200)
+     
+	     Util.aguarde(1800)
+	     limpa()
+
+          FlorestaMansao()
+         
+		Util.aguarde(1800)
+		limpa()
+		
 		escreva("\nNinguém")
      
 		Util.aguarde(200)
@@ -70,10 +74,10 @@ programa
 		escreva("entrar ")
 
 		Util.aguarde(200)
-		escreva("lá ")
+		escreva("naquele ")
           
 		Util.aguarde(200)
-		escreva("dentro")
+		escreva("lugar")
 	          
 		Util.aguarde(900)
 		escreva(".")
@@ -84,57 +88,8 @@ programa
 		Util.aguarde(900)
 		escreva(".")
 
-		Util.aguarde(900)
-		escreva(".")
-     
-	     Util.aguarde(1800)
-	     limpa()
-
-          FlorestaMansao()
-         
-          
-		Util.aguarde(200)
-		escreva("Nessa ")
-  
-		Util.aguarde(200)
-		escreva("mansão ")
-
-		Util.aguarde(200)
-		escreva("tinha ")
-		 
-		Util.aguarde(200)
-		escreva("varias lendas")
-	
-		Util.aguarde(200)
-		escreva(", misterios")
-		 	
-		Util.aguarde(200)
-		escreva(", ou ")
-  
-		Util.aguarde(200)
-		escreva("até ")
-
-		Util.aguarde(200)
-		escreva("coisas ")
-
-		Util.aguarde(200)
-		escreva("sobrenaturais")
-
-		Util.aguarde(900)
-		escreva(".")
-
-		Util.aguarde(900)
-		escreva(".")
-
-		Util.aguarde(900)
-		escreva(".")
-
-		Util.aguarde(900)
-		escreva("\nMas...")
-	
-		Util.aguarde(1800)
 		limpa()
-
+		
 	}
 	funcao destino()
 	{
@@ -186,8 +141,10 @@ programa
 		Util.aguarde(200)
 		
 		escreva("na Floresta) \n")
-		Util.aguarde(600)
-      
+		Util.aguarde(1800)
+
+      	heroijeff()
+      	
      pare
      
      caso 2: 
@@ -202,7 +159,340 @@ programa
      	
      	escreva("entra**")
      	Util.aguarde(1800)
+
+     	heroijeff()
+
+     pare	
+     }
+     
+	}
+	funcao entrando()
+     {
+
+     	escreva("**Você ")
+     	Util.aguarde(200)
      	
+     	escreva("entra ")
+     	Util.aguarde(200)
+     	
+     	escreva("na ")
+     	Util.aguarde(200)
+     	
+     	escreva("floresta**")
+     	Util.aguarde(1800)
+
+		limpa()
+
+		
+     	escreva("(Você ")
+     	Util.aguarde(200)
+     	
+     	escreva("vê ")
+     	Util.aguarde(200)
+     	
+     	escreva("uma ")
+     	Util.aguarde(200)
+
+     	escreva("porta ")
+     	Util.aguarde(200)
+
+     	escreva("literalmente ")
+     	Util.aguarde(200)
+     	
+     	escreva("sozinha ")
+     	Util.aguarde(200)
+
+		escreva("no ")
+	 	Util.aguarde(200)
+	 	
+		escreva("meio ")
+	 	Util.aguarde(200)
+	 	
+		escreva("da ")
+	 	Util.aguarde(200)
+	     
+		escreva("floresta)")
+	 	Util.aguarde(2000)
+	     limpa()
+
+	     imagemPorta()
+	     Util.aguarde(2000)
+
+	     limpa()
+
+	inteiro vocevai
+		
+		escreva("Você")
+		Util.aguarde(200)
+		
+		escreva(" quer ")
+		Util.aguarde(200)
+		
+		escreva("abrir ")
+		Util.aguarde(200)
+
+		escreva("a ")
+		Util.aguarde(200)
+		
+		escreva("porta?")
+		Util.aguarde(200)
+		
+		escreva("\n\nSim[1]  Não[2]\n\nSua escolha:")
+
+		leia(vocevai)
+		
+	escolha(vocevai)
+		{
+	caso 1:
+		
+		escreva("Você ")
+		Util.aguarde(200)
+		
+		escreva("abre ")
+		Util.aguarde(200)
+
+		escreva("e ")	
+    		Util.aguarde(200)
+
+		escreva("você ")	
+    		Util.aguarde(200)
+    		
+    		escreva("se ")	
+    		Util.aguarde(200)
+
+    		escreva("da ")	
+    		Util.aguarde(200)
+
+    		escreva("conta ")	
+    		Util.aguarde(200)
+
+    		escreva("que ")	
+    		Util.aguarde(200)
+
+    		escreva("a ")	
+    		Util.aguarde(200)
+
+    		escreva("porta ")	
+    		Util.aguarde(200) 
+
+    		escreva("era ")	
+    		Util.aguarde(200)
+
+    		escreva("um")	
+    		Util.aguarde(200)
+
+    		escreva("portal")	
+    		Util.aguarde(200)
+    		
+		escreva("mas ")
+		Util.aguarde(200)
+		
+		escreva("ao ")
+		Util.aguarde(200)
+
+		escreva("abrir ")
+		Util.aguarde(200)
+		
+		escreva("parece ")
+		Util.aguarde(200)
+		
+		escreva("que ")
+		Util.aguarde(200)
+		
+		escreva("você ")
+		Util.aguarde(200)
+		
+		escreva("esta ")
+		Util.aguarde(200)
+		
+		escreva("em ")
+		Util.aguarde(200)
+		
+		escreva("uma ")
+		Util.aguarde(200)
+		
+		escreva("mansão ")
+		Util.aguarde(200)
+		
+		escreva("creepy")	
+    		Util.aguarde(200)
+
+    	caso 2:
+
+		escreva("Você ")	
+    		Util.aguarde(200)
+    			
+		escreva("decide ")	
+    		Util.aguarde(200)
+    		
+		escreva("sair ")	
+    		Util.aguarde(200)
+    		
+		escreva("da ")	
+    		Util.aguarde(200)
+    		
+		escreva("floresta ")	
+    		Util.aguarde(200)
+    		
+		escreva("de ")	
+    		Util.aguarde(200)
+    		
+		escreva("uma ")	
+    		Util.aguarde(200)
+    		
+		escreva("vez")	
+    		Util.aguarde(2000)
+
+    		limpa()
+
+    		larDoceLar()
+    		}
+     }
+     funcao FlorestaMansao()
+     {
+     	                                                                                                 
+                       // F L O R E S T A                                                                             
+          
+       	escreva("@@@@@@@@@@%-    -%@@@@@@@@@@@                                     %@@@@@@#= =-  %@@@@@@@@@@@\n")    
+       	Util.aguarde(30)
+       	escreva("@@@@@@@@@@@@%   %  @@@@@@@@@@@+                                  #@@@@@@@@@#  #@@@@@@@@@@@@@\n")    
+       	Util.aguarde(30)  
+       	escreva("@#@@@@@@=  #   :@*#=##%@@@@@%=:=                 -%      =#     +#+@@@@@@@@=   ++@@@@@@@@@@@\n")    
+       	Util.aguarde(30)
+       	escreva("@%%@@@@@==+#+==   =++@%@@@@@@@@%                  %      %%%     #@@@@@@@@@@@ =+%@@@@@@@@@@@\n")    
+		Util.aguarde(30)
+       	escreva("@@#@@@@@@@##+=   @@@@@@@@@@@#         :           #     ==*@  @@@@@  @@:+%@@@@=%@@@*+=%@@@@@\n")       
+		Util.aguarde(30)
+       	escreva("@*##%#@@@@@@+#*#@@@@@@@@@@@@@@@%    *+@#          #+:   #+%%=        @@@@++  =@@@@@@@#*@@@@@\n")       
+		Util.aguarde(30)
+       	escreva("@**#***@=%@@@#  -@@- #@@@@@=  =     #=*%         :%*= = +##+#     @@@@@@@@@=-=*@@@@@@%*@@@@@\n")       
+		Util.aguarde(30)
+       	escreva("@**##*#++-#+#+.+   =*@%@@@@@-      *#=+-:        *@@= ==+##-+  *@@@@@@@@%@@@@#+++=#+@@@@@@@@\n")       
+		Util.aguarde(30)
+       	escreva("@#*#+*##*=*#=+     %@@@@@@@@@@@%== =@%@        -@+@@@% -####--+@@  : @@ #  -++++++*=+=#@@@@@\n")      
+       	Util.aguarde(30)
+       	escreva("@+*##*##+*+#==.=..+@@@@@@@@#......@#@@@%.......=-#@@@==#####*:.....=-@@ +  :*++++**=*=#@@@@@\n")       
+       	Util.aguarde(30)
+       	escreva("@+@*####==*#*+==@@@%%@%@@@#%@@@...@#@@@@.......+@=@@@%@***#*+=+.+...:@@ %* -++++++#****@@@@@\n")       
+       	Util.aguarde(30)
+       	escreva("@+@@%*##*++#*++-=+++@@%@@@@-......@%@@@.+#.....:@@@@@@*+*****+..#:...@@  -:.==+++*#+++*@@@@@\n")       
+       	Util.aguarde(30)
+       	escreva("@@@@@@%**++#+=#+===*%@@@@@+=......%@@@@#-.....+.@@@@#%#@*+****++*+...@@  #*.-+=++*#++**@@@@@\n")       
+       	Util.aguarde(30)
+       	escreva("@@@@@@#+++*#+++=-+***@@@@@+=......%@@@%=@.....-@%@@@@%*++*++++++=+*..@@ =*#=@@#++*#+#@@@@@@@\n")       
+       	Util.aguarde(30)
+       	escreva("@@@@@@@%@*+#*+++++***@%@@@#+=..@+.==@+*@=......#@@@@@+%%++*+*@+++=+-.@@#***%@@@%+*#+@@@@@@@@\n")              
+       	Util.aguarde(30)
+       	escreva("@@@@@@@@@@*#+*@*++++*@%@@@+=.=###%+*##===..=+=..=#%++%@*+++=#%##+@@*+@@*++@@@@@@%*#@@@@@@@@@\n")       
+       	Util.aguarde(30)
+       	escreva("@@@@@@@@@@@*#@@@*+%%+@@@@@+=++*@@+++#+===:=+++.===%++%%#++*#####+@@%*@@*++@@@@@@@%%@@@@@@@@@\n")       
+       	Util.aguarde(30)
+       	escreva("@@@@@@@@@@@@@@@@@%@%%@@@@@%*++%@@#++#==+-:=+++===+#######+*#####%@@@@@@+*@@@@@@@@@%@@@@@@@@@\n")       
+       	Util.aguarde(30)
+       	escreva("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%#####+*#+##*=+***++*+*+###*#@@@@@@@@@@@@@@@@@@@@@@@@@@@\n")       
+       	Util.aguarde(30)
+       	escreva("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@\n")
+       	Util.aguarde(80)                                                                   
+		
+		escreva("                  | | F L O R E S T A")
+		Util.aguarde(80)
+		
+		escreva("    E G Ó I M")
+		Util.aguarde(80)
+		
+		escreva("    2 0 1 X | | ")
+		Util.aguarde(2000)
+		limpa()
+  		
+	escreva("++-++----+---------------+---+--------------++++---++-++++\n")
+	Util.aguarde(30)
+	escreva("++++-----------+++------++-----+--------+++---++++++++++++\n")
+	Util.aguarde(30)
+	escreva("-+-------------+--------+#+-----++####--+++++++++-++------\n")
+	Util.aguarde(30)
+	escreva("----------------------+###############---+++++++-+++++++++\n")
+	Util.aguarde(30)
+	escreva("++++-----------------+#################-----+------+++++--\n")
+	Util.aguarde(30)
+	escreva("++++++++++++-+++++++####################------------------\n")
+	Util.aguarde(30)
+	escreva("-----------------+#######################-----------------\n")
+	Util.aguarde(30)
+	escreva("--+--------------+#######################+----------------\n")
+ 	Util.aguarde(30)
+ 	escreva("--+---------------+#####################+-----------------\n")
+	Util.aguarde(30)
+	escreva("++++-----------+++-#####################-------------+----\n")
+	Util.aguarde(30)
+	escreva("++++++-------------#########==---#######----------+-++----\n")
+	Util.aguarde(30)
+	escreva("+++++--------------+########==---#######-----------++++###\n")
+	Util.aguarde(30)
+	escreva("####+++--#--------+#########==---#######-+---------+######\n")
+	Util.aguarde(30)
+	escreva("#######++#+++++++++#######################+-+++++-+#######\n")
+	Util.aguarde(30)
+	escreva("########+##+++++############################+++++++####+##\n")
+	Util.aguarde(30)
+	escreva("##########################################################\n")
+     Util.aguarde(30)
+     escreva("              ||M A N S Ã O")
+     Util.aguarde(80)
+     escreva("     A N T I G A||")
+     Util.aguarde(2000)
+     
+     limpa()
+   
+     }
+     funcao imagemPorta()
+     {
+
+	escreva("***###**%%**#***+*#*+=====*##**+=+**+=++*%%##*###\n")
+	Util.aguarde(30)
+	escreva("##*####%@#**#**+#**+#_______*+*+++**+++*#%###*+*#\n")
+	Util.aguarde(30)
+	escreva("*%%#@@@@%%##****+*+_/------\\_*+###%%###%%%##***#\n")
+	Util.aguarde(30)
+	escreva("@@@@@@@@%%#%%#=*#_|---------- |_#*#%%%%#%%%##****\n")
+	Util.aguarde(30)
+	escreva("#%%%#%%###%####*#|----197-----|**#*#%%%%%%%%%#*##\n")
+	Util.aguarde(30)
+	escreva("*%#*###%#%%%#%*#%|------------|#######%@@%%%%%%##\n")
+	Util.aguarde(30)
+	escreva("%+###%%@%%%%@%%#@|------------|*##***%%%%%%%%##%%\n")
+	Util.aguarde(30)
+	escreva("#%%%%%%##@@%%%##%|------------|#%@%#%%%@@%%####%%\n")
+	Util.aguarde(30)
+	escreva("@@@@@@@@@@@@%#%@@|-++---------|#%%@@%#%@@#%###%@@\n")
+	Util.aguarde(30)
+	escreva("%@@@@@@@@@@@@@@@@|-++---------|*%@@@%####%%###%@@\n")
+	Util.aguarde(30)
+	escreva("#%@@@@@@@@@@@@@@@|------------|#@@@@%##%@@%#%%%%@\n")
+	Util.aguarde(30)
+	escreva("#%@@@@@@@@@@@@@@@|------------|#@@@@@@%%%%%##%#%@\n")
+	Util.aguarde(30)
+	escreva("##%%%%%@%@@@@@@@@|------------|#@%%%%%%#**#%%%#%%\n")
+	Util.aguarde(30)
+	escreva("%#**####%#####*##|------------|+*####*#***#@@%%%*\n")
+	Util.aguarde(30)
+	escreva("%%#*+*###%%%####*++**********++*+****#+*%@%####*+\n")
+	Util.aguarde(30)
+	escreva("@%%%%#**#%###%%%#++**********+*##****##%@@####**#\n")
+	Util.aguarde(30)
+	escreva("%@@%%%%%##%##**##*******#**###***#*###*%@@%%##**#\n")
+	Util.aguarde(30)
+	escreva("@@@%%%%%%##***#*#%*#########%%%*****###%%@%#####*\n")
+	Util.aguarde(30)
+	escreva("@@@@@%%#%%#%%#%*#@%####%%@@@@@@%##*####%%%####%##\n")
+
+
+
+
+
+
+     }
+     funcao heroijeff()
+     {	
      	limpa()
      	
      	
@@ -249,7 +539,7 @@ programa
 
 		limpa()
 
-		escreva("O ")
+		escreva("(O ")
      	Util.aguarde(200)
 
 	     
@@ -379,371 +669,52 @@ programa
 
      	limpa()
 
-     pare	
      }
-     
-	}
-	funcao entrando()
+     funcao larDoceLar()
      {
-
-     	escreva("**Você ")
+     	escreva("Você  acaba  de  completar  o  FINAL  BOM  !  :) \n\n")
      	Util.aguarde(200)
      	
-     	escreva("entra ")
+    		escreva("Você ")
+     	Util.aguarde(200)	
+		
+    		escreva("quer ")
      	Util.aguarde(200)
      	
-     	escreva("na ")
+    		escreva("ter ")
+     	Util.aguarde(200)	
+		
+    		escreva("uma ")
      	Util.aguarde(200)
      	
-     	escreva("floresta**")
-     	Util.aguarde(1800)
-
-		limpa()
-
+     	escreva("vida ")
+     	Util.aguarde(200)	
 		
-     	escreva("(Você ")
+    		escreva("normal !")
      	Util.aguarde(200)
-     	
-     	escreva("vê ")
-     	Util.aguarde(200)
-     	
-     	escreva("uma ")
-     	Util.aguarde(200)
-
-     	escreva("porta ")
-     	Util.aguarde(200)
-
-     	escreva("literalmente ")
-     	Util.aguarde(200)
-     	
-     	escreva("sozinha ")
-     	Util.aguarde(1800)
-
-		escreva("no ")
-	 	Util.aguarde(200)
-	 	
-		escreva("meio ")
-	 	Util.aguarde(200)
-	 	
-		escreva("da ")
-	 	Util.aguarde(200)
-	     
-		escreva("floresta)")
-	 	Util.aguarde(200)
-	     limpa()
-
-	     imagemPorta()
-	     Util.aguarde(2000)
-
-	     limpa()
-
-	inteiro vocevai
-		
-		escreva("Você")
-		Util.aguarde(200)
-		
-		escreva("quer ")
-		Util.aguarde(200)
-		
-		escreva("abrir ")
-		Util.aguarde(200)
-
-		escreva("a ")
-		Util.aguarde(200)
-		
-		escreva("porta?")
-		Util.aguarde(200)
-		
-		escreva("\n\nSim[1]  Sim[2]\n\nSua escolha:")
-
-		leia(vocevai)
-		
-	escolha(vocevai)
-		{
-	caso 1:
-		
-		escreva("Você ")
-		Util.aguarde(200)
-		
-		escreva("abre ")
-		Util.aguarde(200)
-
-		escreva("e ")	
-    		Util.aguarde(200)
-
-		escreva("você ")	
-    		Util.aguarde(200)
-    		
-    		escreva("se ")	
-    		Util.aguarde(200)
-
-    		escreva("da ")	
-    		Util.aguarde(200)
-
-    		escreva("conta ")	
-    		Util.aguarde(200)
-
-    		escreva("que ")	
-    		Util.aguarde(200)
-
-    		escreva("a ")	
-    		Util.aguarde(200)
-
-    		escreva("porta ")	
-    		Util.aguarde(200) 
-
-    		escreva("era ")	
-    		Util.aguarde(200)
-
-    		escreva("um")	
-    		Util.aguarde(200)
-
-    		escreva("portal")	
-    		Util.aguarde(200)
-    		
-		escreva("mas ")
-		Util.aguarde(200)
-		
-		escreva("ao ")
-		Util.aguarde(200)
-
-		escreva("abrir ")
-		Util.aguarde(200)
-		
-		escreva("parece ")
-		Util.aguarde(200)
-		
-		escreva("que ")
-		Util.aguarde(200)
-		
-		escreva("você ")
-		Util.aguarde(200)
-		
-		escreva("esta ")
-		Util.aguarde(200)
-		
-		escreva("em ")
-		Util.aguarde(200)
-		
-		escreva("uma ")
-		Util.aguarde(200)
-		
-		escreva("mansão ")
-		Util.aguarde(200)
-		
-		escreva("creepy")	
-    		Util.aguarde(200)
-
-    	caso 2:
-    	
-		
-		escreva("Você ")
-		Util.aguarde(200)
-		
-	     escreva("é ")
-		Util.aguarde(200)
-		
-		escreva("tão ")
-		Util.aguarde(200)
-		
-		escreva("curioso ")
-		Util.aguarde(200)
-				
-		escreva("que ")
-		Util.aguarde(200)
-		
-		escreva("entra ")
-		Util.aguarde(200)
-		
-		escreva("mas ")	
-    		Util.aguarde(200)
-    		
-		escreva("você ")	
-    		Util.aguarde(200)
-    		
-    		escreva("se ")	
-    		Util.aguarde(200)
-
-    		escreva("da ")	
-    		Util.aguarde(200)
-
-    		escreva("conta ")	
-    		Util.aguarde(200)
-
-    		escreva("que ")	
-    		Util.aguarde(200)
-
-    		escreva("a ")	
-    		Util.aguarde(200)
-
-    		escreva("porta ")	
-    		Util.aguarde(200) 
-
-    		escreva("era ")	
-    		Util.aguarde(200)
-
-    		escreva("um")	
-    		Util.aguarde(200)
-
-    		escreva("portal")	
-    		Util.aguarde(200)
-		
-		escreva("ao ")
-		Util.aguarde(200)
-
-		escreva("abrir ")
-		Util.aguarde(200)
-		
-		escreva("parece ")
-		Util.aguarde(200)
-		
-		escreva("que ")
-		Util.aguarde(200)
-		
-		escreva("você ")
-		Util.aguarde(200)
-		
-		escreva("esta ")
-		Util.aguarde(200)
-		
-		escreva("em ")
-		Util.aguarde(200)
-		
-		escreva("uma ")
-		Util.aguarde(200)
-		
-		escreva("mansão ")
-		Util.aguarde(200)
-		
-		escreva("creepy")	
-    		Util.aguarde(200)
-    		
-    		}
-     }
-     funcao FlorestaMansao()
-     {
-     	                                                                                                 
-                       // F L O R E S T A                                                                             
-          
-       	escreva("@@@@@@@@@@%-    -%@@@@@@@@@@@                                     %@@@@@@#= =-  %@@@@@@@@@@@\n")    
-       	Util.aguarde(30)
-       	escreva("@@@@@@@@@@@@%   %  @@@@@@@@@@@+                                  #@@@@@@@@@#  #@@@@@@@@@@@@@\n")    
-       	Util.aguarde(30)  
-       	escreva("@#@@@@@@=  #   :@*#=##%@@@@@%=:=                 -%      =#     +#+@@@@@@@@=   ++@@@@@@@@@@@\n")    
-       	Util.aguarde(30)
-       	escreva("@%%@@@@@==+#+==   =++@%@@@@@@@@%                  %      %%%     #@@@@@@@@@@@ =+%@@@@@@@@@@@\n")    
-		Util.aguarde(30)
-       	escreva("@@#@@@@@@@##+=   @@@@@@@@@@@#         :           #     ==*@  @@@@@  @@:+%@@@@=%@@@*+=%@@@@@\n")       
-		Util.aguarde(30)
-       	escreva("@*##%#@@@@@@+#*#@@@@@@@@@@@@@@@%    *+@#          #+:   #+%%=        @@@@++  =@@@@@@@#*@@@@@\n")       
-		Util.aguarde(30)
-       	escreva("@**#***@=%@@@#  -@@- #@@@@@=  =     #=*%         :%*= = +##+#     @@@@@@@@@=-=*@@@@@@%*@@@@@\n")       
-		Util.aguarde(30)
-       	escreva("@**##*#++-#+#+.+   =*@%@@@@@-      *#=+-:        *@@= ==+##-+  *@@@@@@@@%@@@@#+++=#+@@@@@@@@\n")       
-		Util.aguarde(30)
-       	escreva("@#*#+*##*=*#=+     %@@@@@@@@@@@%== =@%@        -@+@@@% -####--+@@  : @@ #  -++++++*=+=#@@@@@\n")      
-       	Util.aguarde(30)
-       	escreva("@+*##*##+*+#==.=..+@@@@@@@@#......@#@@@%.......=-#@@@==#####*:.....=-@@ +  :*++++**=*=#@@@@@\n")       
-       	Util.aguarde(30)
-       	escreva("@+@*####==*#*+==@@@%%@%@@@#%@@@...@#@@@@.......+@=@@@%@***#*+=+.+...:@@ %* -++++++#****@@@@@\n")       
-       	Util.aguarde(30)
-       	escreva("@+@@%*##*++#*++-=+++@@%@@@@-......@%@@@.+#.....:@@@@@@*+*****+..#:...@@  -:.==+++*#+++*@@@@@\n")       
-       	Util.aguarde(30)
-       	escreva("@@@@@@%**++#+=#+===*%@@@@@+=......%@@@@#-.....+.@@@@#%#@*+****++*+...@@  #*.-+=++*#++**@@@@@\n")       
-       	Util.aguarde(30)
-       	escreva("@@@@@@#+++*#+++=-+***@@@@@+=......%@@@%=@.....-@%@@@@%*++*++++++=+*..@@ =*#=@@#++*#+#@@@@@@@\n")       
-       	Util.aguarde(30)
-       	escreva("@@@@@@@%@*+#*+++++***@%@@@#+=..@+.==@+*@=......#@@@@@+%%++*+*@+++=+-.@@#***%@@@%+*#+@@@@@@@@\n")              
-       	Util.aguarde(30)
-       	escreva("@@@@@@@@@@*#+*@*++++*@%@@@+=.=###%+*##===..=+=..=#%++%@*+++=#%##+@@*+@@*++@@@@@@%*#@@@@@@@@@\n")       
-       	Util.aguarde(30)
-       	escreva("@@@@@@@@@@@*#@@@*+%%+@@@@@+=++*@@+++#+===:=+++.===%++%%#++*#####+@@%*@@*++@@@@@@@%%@@@@@@@@@\n")       
-       	Util.aguarde(30)
-       	escreva("@@@@@@@@@@@@@@@@@%@%%@@@@@%*++%@@#++#==+-:=+++===+#######+*#####%@@@@@@+*@@@@@@@@@%@@@@@@@@@\n")       
-       	Util.aguarde(30)
-       	escreva("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%#####+*#+##*=+***++*+*+###*#@@@@@@@@@@@@@@@@@@@@@@@@@@@\n")       
-       	Util.aguarde(30)
-       	escreva("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@\n")
-       	Util.aguarde(80)                                                                   
-		
-		escreva("                  | | F L O R E S T A")
-		Util.aguarde(80)
-		
-		escreva("    E G Ó I M")
-		Util.aguarde(80)
-		
-		escreva("    2 0 1 X | | ")
-		Util.aguarde(2000)
-		limpa()
-  		
-	escreva("++-++----+---------------+---+--------------++++---++-++++\n")
-	Util.aguarde(30)
-	escreva("++++-----------+++------++-----+--------+++---++++++++++++\n")
-	Util.aguarde(30)
-	escreva("-+-------------+--------+#+-----++####--+++++++++-++------\n")
-	Util.aguarde(30)
-	escreva("----------------------+###############---+++++++-+++++++++\n")
-	Util.aguarde(30)
-	escreva("++++-----------------+#################-----+------+++++--\n")
-	Util.aguarde(30)
-	escreva("++++++++++++-+++++++####################------------------\n")
-	Util.aguarde(30)
-	escreva("-----------------+#######################-----------------\n")
-	Util.aguarde(30)
-	escreva("--+--------------+#######################+----------------\n")
- 	Util.aguarde(30)
- 	escreva("--+---------------+#####################+-----------------\n")
-	Util.aguarde(30)
-	escreva("++++-----------+++-#####################-------------+----\n")
-	Util.aguarde(30)
-	escreva("++++++-------------#########==---#######----------+-++----\n")
-	Util.aguarde(30)
-	escreva("+++++--------------+########==---#######-----------++++###\n")
-	Util.aguarde(30)
-	escreva("####+++--#--------+#########==---#######-+---------+######\n")
-	Util.aguarde(30)
-	escreva("#######++#+++++++++#######################+-+++++-+#######\n")
-	Util.aguarde(30)
-	escreva("########+##+++++############################+++++++####+##\n")
-	Util.aguarde(30)
-	escreva("##########################################################\n")
-     Util.aguarde(30)
-     escreva("              ||M A N S Ã O")
-     Util.aguarde(80)
-     escreva("     A N T I G A||")
-     Util.aguarde(2000)
-     
-     limpa()
-   
-     }
-     funcao imagemPorta()
-     {
-
-	escreva("***###**%%**#***+*#*+=====*##**+=+**+=++*%%##*###\n")
-	escreva("##*####%@#**#**+#**+#_______*+*+++**+++*#%###*+*#\n")
-	escreva("*%%#@@@@%%##****+*+_/------\\_*+###%%###%%%##***#\n")
-	escreva("@@@@@@@@%%#%%#=*#_|---------- |_#*#%%%%#%%%##****\n")
-	escreva("#%%%#%%###%####*#|----197-----|**#*#%%%%%%%%%#*##\n")
-	escreva("*%#*###%#%%%#%*#%|------------|#######%@@%%%%%%##\n")
-	escreva("%+###%%@%%%%@%%#@|------------|*##***%%%%%%%%##%%\n")
-	escreva("#%%%%%%##@@%%%##%|------------|#%@%#%%%@@%%####%%\n")
-	escreva("@@@@@@@@@@@@%#%@@|-++---------|#%%@@%#%@@#%###%@@\n")
-	escreva("%@@@@@@@@@@@@@@@@|-++---------|*%@@@%####%%###%@@\n")
-	escreva("#%@@@@@@@@@@@@@@@|------------|#@@@@%##%@@%#%%%%@\n")
-	escreva("#%@@@@@@@@@@@@@@@|------------|#@@@@@@%%%%%##%#%@\n")
-	escreva("##%%%%%@%@@@@@@@@|------------|#@%%%%%%#**#%%%#%%\n")
-	escreva("%#**####%#####*##|------------|+*####*#***#@@%%%*\n")
-	escreva("%%#*+*###%%%####*++**********++*+****#+*%@%####*+\n")
-	escreva("@%%%%#**#%###%%%#++**********+*##****##%@@####**#\n")
-	escreva("%@@%%%%%##%##**##*******#**###***#*###*%@@%%##**#\n")
-	escreva("@@@%%%%%%##***#*#%*#########%%%*****###%%@%#####*\n")
-	escreva("@@@@@%%#%%#%%#%*#@%####%%@@@@@@%##*####%%%####%##\n")
-
-
-
-
-
 
      	
+     	              ##              
+         @@# @@@@.*@@.        
+    +*-.:@@@@@@@@@@@@- -**    
+    .@@@@@@@*.  .+@@@@@@@:    
+    :%@@@: -@@@@@@- .@@@%:.   
+ .@@@@@* #@@@@@@@@@@# +@@@@@. 
+   %@@% @@@@@@@@@@@@@@ #@@%   
+ *@@@@:-@@@@@@@@@@@@@@=.@@@@# 
+ +@@@@:-@@@@@@@@@@@@@@-.@@@@* 
+   @@@% %@@@@@@@@@@@@@ #@@@   
+ .@@@@@* *@@@@@@@@@@# +@@@@@. 
+     %@@@- :@@@@@@: :@@@%.    
+    :@@@@@@@#:  :#@@@@@@@:    
+    ++. @@@@@@@@@@@@@@ .+*    
+       =@@@@@@@@@@@@@@*       
+       @@@@@@@@@@@@@@@@.      
+      %@@@@@@@%#@@@@@@@@      
+     -@@@@@@@@:.@@@@@@@@=     
+     @@@@%@@@+  +@@@@@@@@.    
+    #@=  :@@#    #@@:  =@#    
+   ..     *@:    :@*      .   
+          .-      -:      
      }	
 }
