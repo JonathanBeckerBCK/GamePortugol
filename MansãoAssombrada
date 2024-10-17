@@ -10,7 +10,13 @@ programa
 		//2 destino()
 
 		//3 entrando()
-     dentromansao()
+     	
+     	//4 dentromansao()
+
+		//5 decisaoAoDesafio()
+		 
+		
+	
 	}
 	funcao history()
 	{
@@ -195,12 +201,9 @@ programa
      	escreva("porta ")
      	Util.aguarde(200)
 
-     	escreva("literalmente ")
+     	escreva("solitaria ")
      	Util.aguarde(200)
-     	
-     	escreva("sozinha ")
-     	Util.aguarde(200)
-
+     
 		escreva("no ")
 	 	Util.aguarde(200)
 	 	
@@ -243,83 +246,46 @@ programa
 	escolha(vocevai)
 		{
 	caso 1:
+
+		limpa()
 		
 		escreva("Você ")
 		Util.aguarde(200)
 		
-		escreva("abre ")
+		escreva("vê ")
 		Util.aguarde(200)
 
-		escreva("e ")	
+		escreva("um ")	
     		Util.aguarde(200)
 
-		escreva("você ")	
-    		Util.aguarde(200)
-    		
-    		escreva("se ")	
-    		Util.aguarde(200)
-
-    		escreva("da ")	
-    		Util.aguarde(200)
-
-    		escreva("conta ")	
-    		Util.aguarde(200)
-
-    		escreva("que ")	
-    		Util.aguarde(200)
-
-    		escreva("a ")	
-    		Util.aguarde(200)
-
-    		escreva("porta ")	
-    		Util.aguarde(200) 
-
-    		escreva("era ")	
-    		Util.aguarde(200)
-
-    		escreva("um")	
-    		Util.aguarde(200)
-
-    		escreva("portal")	
+		escreva("corredor ")	
     		Util.aguarde(200)
     		
-		escreva("mas ")
-		Util.aguarde(200)
-		
-		escreva("ao ")
-		Util.aguarde(200)
+    		escreva("escuro, ")	
+    		Util.aguarde(500)
 
-		escreva("abrir ")
-		Util.aguarde(200)
-		
-		escreva("parece ")
-		Util.aguarde(200)
-		
-		escreva("que ")
-		Util.aguarde(200)
-		
-		escreva("você ")
-		Util.aguarde(200)
-		
-		escreva("esta ")
-		Util.aguarde(200)
-		
-		escreva("em ")
-		Util.aguarde(200)
-		
-		escreva("uma ")
-		Util.aguarde(200)
-		
-		escreva("mansão ")
-		Util.aguarde(200)
-		
-		escreva("creepy")	
-    		Util.aguarde(2000)
+    		escreva("com ")	
+    		Util.aguarde(200)
 
+    		escreva("paredes ")	
+    		Util.aguarde(200)
+
+    		escreva("de ")	
+    		Util.aguarde(200)
+
+    		escreva("madeira ")	
+    		Util.aguarde(1500)
+
+		limpa()
+          
     		dentromansao()
+
+    		pare
 
     	caso 2:
 
+		limpa()
+		
 		escreva("Você ")	
     		Util.aguarde(200)
     			
@@ -347,6 +313,9 @@ programa
     		limpa()
 
     		larDoceLar()
+
+    		pare
+    		
     		}
      }
      funcao FlorestaMansao()
@@ -671,7 +640,7 @@ programa
      	limpa()
 
      }
-     funcao larDoceLar()
+     funcao larDoceLar() //
      {
      	escreva("CONQUISTA: FINAL BOM ! :) \n\n")
      	Util.aguarde(200)
@@ -694,7 +663,6 @@ programa
     		escreva("normal !")
      	Util.aguarde(200)
 
-     	
 escreva("\n	    	      ##              \n")
 escreva("	         @@# @@@@.*@@.        \n")
 escreva("	    +*-.:@@@@@@@@@@@@- -**    \n")
@@ -718,10 +686,19 @@ escreva("	    #@=  :@@#    #@@:  =@#    \n")
 escreva("	   ..     *@:    :@*      .   \n")
 escreva("         .-      -:      .-       ,  \n")
 
+
+
      }
      funcao dentromansao()
 	{
-          escreva("Você ")
+		
+          escreva("Ao ")
+     	Util.aguarde(200)
+     	
+    		escreva("entrar ")
+     	Util.aguarde(200)
+     	
+          escreva("você ")
      	Util.aguarde(200)
      	
     		escreva("vê ")
@@ -733,16 +710,13 @@ escreva("         .-      -:      .-       ,  \n")
     		escreva("portas, ")
      	Util.aguarde(200)	
 		
-    		escreva("e ")
-     	Util.aguarde(200)
-     	
      	escreva("elas ")
      	Util.aguarde(200)	
 		
     		escreva("tem ")
      	Util.aguarde(200)
 
-     	escreva("simbolos")
+     	escreva("simbolos\n")
      	Util.aguarde(2000)
 
      	escreva("\n============================----=================----===========---------=======\n")
@@ -780,6 +754,9 @@ escreva("         .-      -:      .-       ,  \n")
 		escreva("________________________________________________________________________________\n")
 		Util.aguarde(1000)
 
+		escreva("\nDica: ")
+     	Util.aguarde(600)
+     	
 		escreva("Lembrar ")
      	Util.aguarde(200)
      	
@@ -796,9 +773,201 @@ escreva("         .-      -:      .-       ,  \n")
      	Util.aguarde(200)
      	
     		escreva("importante. ")
+     	Util.aguarde(2000)	
+
+		limpa()
+
+		escreva("\n============================----=================----===========---------=======\n")
+          escreva("=====-.========.-=======:.========.-=======-..=======.-=======-.========.-======\n")
+ 		escreva("=====:__________-=======:_________--=======+ _________-=======* __________-=====\n")
+ 		escreva("====+|  ....... |=======|  ......:|-=======+| ........|=======*| .........|=====\n")
+ 		escreva("====+|    @  .. |=======|  . %  .:|-=======+| .  # ...|=======*|     $ ...|=====\n")
+ 		escreva("====+|       .. |======+|       .:|-=======+|       ..|=======*|       ...|=====\n")
+ 		escreva("====+| *      . |======+| :      :|-=======+|-.    ...|=======*|+      ...|=====\n")
+ 		escreva("====+| ........ |======+| ...... :|-=======+|.........|=======*|...... ...|=====\n")
+ 		escreva("====+|  ....... |======+|  ......:|-=======+| ........|=======*| .........|=====\n")
+		escreva("====+|        . |=======|        :|-=======+| .    ...|=======*|       ...|=====\n")
+		escreva("-----|.       ..|-------|:  ..   .| --------|  . .  ..|:-:-----|  .     ..|:::::\n")
+		escreva("________________________________________________________________________________\n")
+		escreva("________________________________________________________________________________\n")
+		escreva("________________________________________________________________________________\n")
+		escreva("________________________________________________________________________________\n")
+		escreva("________________________________________________________________________________\n")
+		escreva("________________________________________________________________________________\n")
+		
+		escreva("\nVocê ")
+     	Util.aguarde(600)
+     	
+		escreva("nota ")
+     	Util.aguarde(200)
+     	
+     	escreva("que ")
+     	Util.aguarde(200)
+     	
+     	escreva("apenas ")
+     	Util.aguarde(200)
+     	
+    		escreva("a ")
      	Util.aguarde(200)	
 		
+    		escreva("primeira ")
+     	Util.aguarde(200)
+     	
+    		escreva("porta ")
+     	Util.aguarde(200)	
     		
+    		escreva("esta ")
+     	Util.aguarde(200)
 
+    		escreva("aberta.")
+     	Util.aguarde(2500)
+
+
+	}
+	funcao decisaoAoDesafio()
+	{
+		
+		inteiro vPOR
+		
+		escreva("Você")
+		Util.aguarde(200)
+		
+		escreva(" quer ")
+		Util.aguarde(200)
+		
+		escreva("entrar? ")
+		Util.aguarde(200)
+	
+		escreva("\n\nSim[1]  Não[2]\n\nSua escolha:")
+		
+    		leia(vPOR)
+
+		    		
+			escolha(vPOR)
+			{
+			caso 1:
+
+				limpa()
+				mansaoEstaDiferente()
+				pare
+				
+		    	caso 2:
+
+					limpa()
+			
+     				
+    					escreva("você ")
+     				Util.aguarde(200)
+
+    					escreva("tenta ")
+     				Util.aguarde(200)
+     				
+    					escreva("abrir ")
+     				Util.aguarde(200)
+     				
+    					escreva("a ")
+     				Util.aguarde(200)
+     				
+    					escreva("porta ")
+     				Util.aguarde(200)
+     				
+    					escreva("de ")
+     				Util.aguarde(200)
+     				
+    					escreva("onde ")
+     				Util.aguarde(200)
+     				
+    					escreva("você ")
+     				Util.aguarde(200)
+     				
+    					escreva("veio, ")
+     				Util.aguarde(1000)
+     				
+    					escreva("ela ")
+     				Util.aguarde(200)
+     				
+    					escreva("está ")
+     				Util.aguarde(200)
+     				
+    					escreva("trancada, ")
+     				Util.aguarde(1000)
+     				
+    					escreva("você ")
+     				Util.aguarde(200)
+     				
+    					escreva("está ")
+     				Util.aguarde(200)
+     				
+    					escreva("preso.")
+     				Util.aguarde(2000)
+
+					limpa()
+					
+					semVolta()
+
+					pare
+     				
+		    	}	
+
+
+			
+	}
+	funcao semVolta()
+	{
+		
+		inteiro vPOR=1
+		
+		escreva("Entrar?? ")
+		Util.aguarde(200)
+
+		
+		escreva("\n\nSim[1]\n\nSua escolha:")
+		
+    		leia(vPOR)
+
+    		se(vPOR == 1)
+    		{
+
+			mansaoEstaDiferente()
+    			
+    		}
+		
+	}
+	funcao mansaoEstaDiferente()
+	{
+
+		limpa()
+			escreva("Você ")
+			Util.aguarde(200)
+			escreva("entra ")
+			Util.aguarde(200)
+			escreva("na ")
+			Util.aguarde(200)
+			escreva("porta")
+			Util.aguarde(200)
+			
+			Util.aguarde(800)
+			escreva(".")
+			Util.aguarde(800)
+			escreva(".")
+			Util.aguarde(800)
+			escreva(".")
+		
+			escreva(" não ")
+			Util.aguarde(200)
+			escreva("parece ")
+			Util.aguarde(200)
+			escreva("que ")
+			Util.aguarde(200)
+			escreva("você ")
+			Util.aguarde(200)
+			escreva("está ")
+			Util.aguarde(200)
+			escreva("na ")
+			Util.aguarde(200)
+			escreva("mansão")
+			Util.aguarde(2000)
+
+		
      }	
 }
