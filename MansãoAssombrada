@@ -1,15 +1,21 @@
 programa
 {
+	
+	funcao inicio()
+	{
+		programa
+{
 	inclua biblioteca Matematica
 	inclua biblioteca Util
 	
 	funcao inicio()
 	{
-		//1 history()
+		//1 
+		history()
           
-		//decisaoAoDesafio()
 		
-		defrasdf()
+		
+		
 
 	
 	}
@@ -2570,4 +2576,6 @@ escreva("                                       . . 														\n")
 
 
       
+}
+	}
 }
